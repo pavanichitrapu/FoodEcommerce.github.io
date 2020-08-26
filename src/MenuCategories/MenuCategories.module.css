@@ -1,0 +1,102 @@
+.CategorySection{
+    width:100%;
+    height:200px;
+    box-sizing: border-box;
+    padding:1% 7%;
+    padding-bottom:0;
+  
+  }
+  .CateSectionHeader{
+    display:flex;
+    align-items: center;    
+  }
+  .CateSectionHeader>p{
+    margin:0 15px 0 15px;
+    font-weight:900;
+    font-size:28px;
+  }
+  .BurgerImage{
+    width:22px;
+  }
+  .CategoryBtnDiv{
+    margin-left:60%;
+  }
+  .CategoriesButton{
+    padding:12px 24px;
+    background-color:#FB6D3A;
+    outline:none;
+    border:0;
+    color:#fff;
+    border-radius:20px;
+    font-size:12px;
+  }
+  .DownArrow{
+    margin-left:10px;
+    width:12px;
+  }
+  .MenuItemDisplay{
+    width:100%;
+    margin-top:10px;
+    border-radius:25px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    padding:15px;
+    box-sizing:border-box;
+    margin-bottom:0;
+  }
+  .MenuItemDisplay>button{
+    margin-left:30px;
+    border:1px solid gray;
+    border-radius:5px;
+    padding:4px;
+    outline:none;
+    border:none;
+    
+  }
+  .MenuItemDisplay>button:hover{
+    background-color:#ddd;
+  }
+  .MenuItemWrapper{
+    font-size:10px;
+    font-weight: 800;
+    display:flex;
+    flex-direction:column;
+    border:1px solid #ddd ;
+    border-radius:45px;
+    width:60px;
+    height:90px;
+    align-items:center;
+    background-color:#fff;
+    justify-content: space-evenly;
+ 
+  }
+  .MenuItemWrapper>p{
+    margin-top: 0;
+  }
+  
+  .FoodIcon{
+    border:1px solid grey;
+    border-radius:35px;
+    padding:8px;
+  }
+  .FoodIcon1{
+    border:1px solid grey;
+    border-radius:35px;
+    padding:6px 12px;
+  }
+  .FoodIcon1>img{
+    width:12px;
+  }
+  .MenuItemWrapper:hover{
+    background-color:#FBD460;
+  }
+  .MenuItemWrapper:hover .FoodIcon{
+    background-color:#fff;
+  }
+  .MenuItemWrapper:hover .FoodIcon1{
+    background-color:#fff;
+  }
+  .FoodIcon>img{
+    width:16px;
+  }

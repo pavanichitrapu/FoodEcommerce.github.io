@@ -1,0 +1,87 @@
+.OrderMenuWrapper{
+    width:300px;
+    border-radius:15px;
+    margin-top:20px;
+    margin-left:35px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    height:450px;
+}
+
+.MenuItemcard{
+    display:flex;
+    align-items: center;
+    justify-content: start;
+   
+}
+.ItemCount{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:100px;
+    margin-right:20px;
+    margin-left:10px;
+}
+.ItemCount>p{
+    margin-left:5px;
+    font-size:12px;
+    font-weight:700;
+}
+.MenuImg{
+    width:100px;
+    height:60px;
+    border:1px solid #eee;
+    border-radius:15px;  
+    background-color:#FBF2D6;
+} 
+.MenuImg>img{
+    margin-top:15px;
+    margin-left:32px;
+   
+}    
+.MenuImg>p{
+    color:grey;
+}  
+.Total{ 
+    display:flex;
+    justify-content: space-around;
+    margin-top:20px;
+    border-bottom:2px solid #ddd;
+    margin-left:60px;
+    margin-right:0px;   
+}
+.Total>p{
+    font-size:24px;
+    font-weight:900;
+    margin:0px;
+}
+.CountItems{
+    width:80px;
+    margin-top:20px;
+}
+
+.buttons{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Checkout{
+    width:150px;
+    padding:18px 24px;
+    background-color:#FCD561;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    font-size:18px;
+    font-weight:700;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    position: relative;
+    bottom:65px;
+    left:140px;
+   
+}
+.Checkout>img{
+    width:20px;
+}

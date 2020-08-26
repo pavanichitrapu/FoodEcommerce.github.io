@@ -1,0 +1,11 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color:#FCD561;
+}
+.LandingSection{
+  margin:36px;
+  margin-bottom:0;
+  width:95%;
+  display:flex;
+  border-radius:100px;
+}

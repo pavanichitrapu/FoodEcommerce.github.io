@@ -1,0 +1,28 @@
+.Sidebar{
+    margin-right:16px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius:25px;
+    width:25%;
+    background-color: #FCFCFA;
+    border-left:1px solid #ccc;
+}
+.SidebarTopbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width:30%;
+    margin-top:20px;
+    margin-left:60%;
+       
+}
+.User{
+    width:25px;
+}
+.count{
+    border:none;
+    padding:10px 20px;
+    border-radius: 17px;
+    background-color: #FCD561;
+    font-weight:800;
+}
+           

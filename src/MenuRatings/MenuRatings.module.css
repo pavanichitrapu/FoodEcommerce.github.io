@@ -1,0 +1,53 @@
+.MenuRatingsDivWrapper{
+    padding:0% 8%;
+    margin-top:0;
+    display:flex;
+}
+.MenuRatingsDiv{
+width:30%;
+margin-top:0;
+margin:20px;  
+box-sizing:border-box;
+}
+.RatingsImgWrapper{
+    position:relative;
+}
+.MenuRatingsImg{
+    width:100%;
+    height:150px;
+    border-radius:20px;
+}
+.TimeValue{
+    position:absolute;
+    bottom:7px;
+    padding:8px;
+    background-color:#eee;
+    font-weight:800;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:20px;
+} 
+.RatingsDesc{
+    margin:0;
+    
+}
+.Title{
+    font-weight:800;
+    line-height:1px;
+    font-size:20px;
+}
+.Ratings{
+    height:20px;
+    display:flex;
+    align-items:center;
+    justify-content: start;
+   
+    
+}
+.Ratings>p{
+    margin:5px;
+    color:#aaa;
+}
+.star{
+    width:20px;
+}
+                     

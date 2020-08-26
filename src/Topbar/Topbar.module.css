@@ -1,0 +1,44 @@
+.Topbar{
+display:flex;
+align-items:center;
+justify-items: start;
+width:100%;
+padding:2% 8%;
+box-sizing: border-box;
+}
+.ToggleMenu{
+width:25px;
+}
+.Logo{
+    font-size:20px;
+    font-weight:900;
+    letter-spacing:1px;
+    margin:0 50px 0 32px;
+}
+.SearchContainer{
+position:relative;
+width:100%;
+}
+.SearchIcon{
+width:20px;
+position:absolute;
+top:14px;
+left:24px;
+}
+.SearchBox{
+    width:100%;
+    border:0;
+    padding:16px;
+    outline:none;
+    padding-left:16px;
+    box-sizing:border-box;
+    border-radius:25px;
+    background-color: #F8F8F7;
+}
+.SearchBox::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.4);
+    letter-spacing: 1.2px;
+    padding-left:35px;
+}
